@@ -1,0 +1,98 @@
+@media (min-width: 800px){
+    body {
+        font-family: 'Sono', sans-serif;
+      }
+
+    h1 {
+        text-align: center;
+        color: #0079bf;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        background-color: #f5f5f1;
+        border-radius: 20px;
+    }
+
+    .precio1 {
+        background-color: white;
+        margin: 15px;
+        border-radius: 10px;
+        width: 300px;
+    }
+    .parrafo {
+        text-align: center;
+    }
+
+    h2, h3 {
+        text-align: center;
+    }
+
+    .precio2 {
+        background-color: white;
+        margin: 15px;
+        border-radius: 10px;
+        width: 300px;
+    }
+
+    .precio3 {
+        background-color: white;
+        margin: 15px;
+        border-radius: 10px;
+        width: 300px;
+    }
+    footer {
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px){
+    body {
+        font-family: 'Sono', sans-serif;
+      }
+    h1{
+        text-align: center;
+        color: #0079bf;
+    }  
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f5f5f1;
+        border-radius: 20px;
+    }
+
+    .precio1 {
+        background-color: white;
+        margin: 15px;
+        border-radius: 10px;
+        width: 300px;
+    }
+    .parrafo {
+        text-align: center;
+    }
+
+    h2, h3 {
+        text-align: center;
+    }
+
+    .precio2 {
+        background-color: white;
+        margin: 15px;
+        border-radius: 10px;
+        width: 300px;
+    }
+
+    .precio3 {
+        background-color: white;
+        margin: 15px;
+        border-radius: 10px;
+        width: 300px;
+    }
+    footer {
+        text-align: center;
+    }
+}
